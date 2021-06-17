@@ -1,0 +1,20 @@
+{
+  "name": "aseprite-nord",
+  "displayName": "Nord - A dark theme for Aseprite",
+  "description": "Based on Aseprite Than by (C) Tung Le and Default theme by (C) David Capello and Ilija Melentijevic",
+  "version": "1.0",
+  "author": { "name": "Marsn3", "url": "https://github.com/marsn3/aseprite-nord" },
+  "publisher": "aseprite",
+  "license": "MIT",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      { "id": "Nord", "path": "./theme" }
+    ],
+    "palettes":[
+      {"id":"Nord", "path":"./nord.gpl"}
+    ]
+  }
+}
